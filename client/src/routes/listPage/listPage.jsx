@@ -11,7 +11,7 @@ function ListPage() {
         <div className="wrapper">
           <Filter />
           {data.map((item) => (
-            <Card key={item.id} />
+            <Card key={item.id} item={item} />
           ))}
         </div>
       </div>
