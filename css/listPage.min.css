@@ -1,0 +1,5 @@
+.listPage{display:-webkit-box;display:-ms-flexbox;display:flex;height:100%}.listPage .listContainer{-webkit-box-flex:3;-ms-flex:3;flex:3}.listPage .listContainer .wrapper{padding-right:50px}.listPage .mapContainer{-webkit-box-flex:2;-ms-flex:2;flex:2}Page .mapContainer {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+}

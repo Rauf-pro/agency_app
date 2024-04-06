@@ -1,9 +1,17 @@
+import Filter from "../../components/filter/Filter";
+import { listData } from "../../lib/dummydata";
 import "./listPage.scss";
 
 function ListPage() {
+    const data = listData;
     return (
         <div className="listPage">
-            <h1>List Page</h1>
+            <div className="listContainer">
+                <div className="wrapper">
+                    <Filter/>
+                </div>
+            </div>
+            <div className="mapContainer">map</div>
         </div>
     );
 }
