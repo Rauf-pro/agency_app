@@ -1,4 +1,6 @@
-function LoginPage() {
+import "./login.scss"
+
+function Login() {
   return (
     <div>
       <h1>Login</h1>
@@ -7,4 +9,4 @@ function LoginPage() {
   );
 }
 
-export default LoginPage;
+export default Login;
